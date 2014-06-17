@@ -73,7 +73,9 @@ body h1, h2, h3, h4, p, a, span {
     margin-right:auto;
 }
 .logo {
-    padding-top:50px;
+    padding-top:10px;
+	padding-bottom:10px;
+	
 }
 .navigation {
     padding-top:20px;
@@ -126,18 +128,11 @@ body h1, h2, h3, h4, p, a, span {
 .hmenubar li a:active {
     color: #272727;
 }
-.slideshow_wrapper p {
-    font-size:18px;
-}
-.slideshow_wrapper a {
-    font-size:18px;
-}
+
 .comment_with_button a {
     color: #FFFFFF;
 }
-.slideshow_wrapper a:hover {
-    font-size:18px;
-}
+
 .comment_with_button a:hover {
     color: #FFFFFF;
 }
@@ -405,10 +400,7 @@ a.privacy_policy:hover {
 a.read-more-footer:hover {
     color: #07617C;
 }
-.slideshow_wrapper {
-    padding-left: 10px;
-    padding-right:10px;
-}
+
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
@@ -436,17 +428,15 @@ a.read-more-footer:hover {
     }
     .header {
         clear: both;
-        min-height: 163px;
+        min-height: 155px;
     }
     .top_header {
         clear: both;
-        min-height: 163px;
-        padding-left:20px;
-        padding-right:20px;
+        min-height: 155px;
     }
     .logo {
         float: left;
-        width: 291px;
+        width: 218px;
         min-height: 113px;
         padding-left: 20px;
     }
@@ -479,12 +469,7 @@ a.read-more-footer:hover {
         text-align: right;
         background-image:none;
     }
-    .slideshow_wrapper {
-        clear: both;
-        min-height: 500px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+
     .comment_with_button {
         display: inline-block;
         padding-right: 20px;
@@ -567,10 +552,7 @@ a.read-more-footer:hover {
     .breadcrumbs p {
         text-align: right;
     }
-    .slideshow_placeholder {
-        width: 930px;
-        height: 363px;
-    }
+    
     p.footer_breadcrumb {
         width: 440px;
     }
