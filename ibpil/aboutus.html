@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Welcome to IBPIL - Home</title>
+  <meta content="" name="description" />
+  <meta content="" name="author" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+  <link href="animated_favicon1.gif" rel="shortcut icon" />
+  <script type="text/javascript" src="scripts/browser-compatibility.js"></script>
+  <link href="stylesheets/layout-css-1.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="includes/extendjQuery.js"></script>
+  <script type="text/javascript" src="includes/FlexiMenus2/fleximenus2.js"></script>
+  <link href="includes/FlexiMenus2/CSSMenu_CSSMenu1.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" id="camera-css" href="stylesheets/camera.css" type="text/css" media="all" />
+  <script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.mobile.customized.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="scripts/camera.min.js"></script>
+  <style>
+   .fluid_container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+   }
+  </style>
+  <script>
+   jQuery(function(){
+   			
+   			jQuery('#camera_wrap_1').camera({
+   				thumbnails: true
+   			});
+   		});
+  </script>
+  <link href="stylesheets/search.css" rel="stylesheet" type="text/css" />
+  <script src="scripts/modernizr.min.js"></script>
+  <!--[if gt IE 8]>-->
+   <script src="scripts/highlight.min.js"></script>
+   <script>
+    hljs.tabReplace = '&nbsp;&nbsp;&nbsp;';
+    			hljs.initHighlightingOnLoad();
+   </script>
+   <!-- <![endif]-->
+   <!-- jautocomplete -->
+   <script src="scripts/jsrender.min.js"></script>
+   <script src="scripts/jautocomplete.min.js"></script>
+   <script>
+    $('document').ready(function(){
+    			
+    				$('#jautocomplete').jautocomplete({
+    					dataSource: 'oneFile'
+    					,oneFile: 'data/json.txt'
+    					,filterBy: ['title']
+    					,templatePath: '#jautocompleteTemplate'
+    				});
+    			});
+   </script>
+ </head>
+ <body>
+  <div class="main_wrapper">
+   <div class="header">
+    <div class="top_header">
+     <div class="logo">
+      <img src="images/IBPIL-LOGO.jpg" width="125" height="135" alt="ibpil logo" />
+     </div>
+     <div class="navigation">
+      <div id="jautocomplete" class="jautocomplete">
+       <ul class="nav" data-type="actions">
+        <li class="nav-search">
+        <form action="#">
+         <input type="text" placeholder="Search..." class="ja-tb" data-type="tb">
+         <input type="submit" value="" class="ja-btn" data-type="btn">
+        </form>
+        </li>
+       </ul>
+       <!-- jAutocomplete jsrender TEMPLATE -->
+       <script id="jautocompleteTemplate" type="text/x-jsrender">
+        <div class="jautocomplete-box">
+        								
+        								{{for data}}
+        									<a href="{{>link}}" title="" data-type="item">
+        										<div class="item">
+        											<div class="img">
+        												<img src="{{>img}}" alt="" title="" />
+        											</div>
+        											<div class="data">
+        												<p class="title">{{>title}}</p>
+        												<p class="desc">{{>desc}}</p>
+        											</div>
+        										</div>
+        									</a>
+        								{{/for}}
+        							</div>
+       </script>
+      </div>
+      <div class="menubar_nav">
+       <div id="CSSMenu1_container" class="FM2_CSSMenu1_container" style="display:block">
+        <ul id="CSSMenu1" class="FM2_CSSMenu1">
+         <!-- version=2.0.217;name=CSSMenu1;baseskin=skin19;colorscheme=light_blue;type=horizontal; -->
+         <li> <a href="index.html" target="_self"><font class="leaf">Home</font></a> 
+         </li>
+         <li> <a href="aboutus.html" target="_self"><span class="branch">About Us</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="aboutus.html" target="_self"><font class="leaf">Overview</font></a> 
+           </li>
+           <li> <a href="boardofdirectors.html" target="_self"><font class="leaf">Board of Directors</font></a> 
+           </li>
+           <li> <a href="keymilestones.html" target="_self"><font class="leaf">Key Milestones</font></a> 
+           </li>
+           <li> <a href="keypersonnel.html" target="_self"><font class="leaf">Key Personnel</font></a> 
+           </li>
+           <li> <a href="csr.html" target="_self"><font class="leaf">CSR</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="power.html" target="_self"><span class="branch">Power</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="thermalpowerplants.html" target="_self"><font class="leaf">Thermal Power Plants</font></a> 
+           </li>
+           <li> <a href="gaspowerplants.html" target="_self"><font class="leaf">Gas Power Plants</font></a> 
+           </li>
+           <li> <a href="renewable.html" target="_self"><font class="leaf">Renewable Power Plants</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="presentations.html" target="_self"><span class="branch">Presentations</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="presentations.html" target="_self"><font class="leaf">Corporate Video</font></a> 
+           </li>
+           <li> <a href="corporatepresentation.html" target="_self"><font class="leaf">Presentation</font></a> 
+           </li>
+           <li> <a href="companystructure.html" target="_self"><font class="leaf">Company Structure</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="media.html" target="_self"><span class="branch">Media</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="media.html" target="_self"><font class="leaf">News</font></a> 
+           </li>
+           <li> <a href="photogallery.html" target="_self"><font class="leaf">Photo Gallery</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="contactus.html" target="_self"><font class="leaf">Contact Us</font></a> 
+         </li>
+        </ul>
+        <script type="text/javascript">
+         registerFlexiCSSMenu("CSSMenu1", {"menuType":"horizontal","effectSub":{"name":"slide","direction":"up","duration":250,"easing":"swing","useFade":true},"effectRest":{"name":"slide","direction":"left","duration":250,"easing":"swing","useFade":true},"effectSubTwo":null,"options":{"preset":"fixed","enableTablet":true,"enableMobile":true,"mobileMaxWidth":640,"tabletMaxWidth":1023,"tabletCloseBtnLabel":"Close","tabletCloseBtnEnable":true,"align":"left"}});
+        </script>
+       </div>
+<a class="FM2_mobile_button" id="FM2_CSSMenu1_mobile_button"><span class="caption">Menu</span></a>
+
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="content">
+    <div class="fluid_container">
+     <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+      <div data-thumb="images/slides/thumbs/aerlheaderimage.jpg" data-src="images/slides/aerlheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Arkay Energy Rameswarm Limited (AERL) - 150 MW, Ramnathpuram, Tamil Nadu.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/ibtplheaderimage.jpg" data-src="images/slides/ibtplheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Ind-Barath Thermal Power Limited (IBTPL) - 300 MW, Thoothukudi, Tamil Nadu.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/ibpglheaderimage.jpg" data-src="images/slides/ibpglheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Ind-Barath Power Gencom Limited (IBPGL) - 189 MW, Thoothukudi, Tamil Nadu.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/ibetlheaderimage.jpg" data-src="images/slides/ibetlheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Ind-Barath Energies Thoothukkudi Limited (IBETL) - 20 MW, Thoothukudi, Tamil Nadu.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/utkalheaderimage.jpg" data-src="images/slides/utkalheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Ind-Barath Energy (Utkal) Limited, Phase I - 700 MW, Jharsuguda District, Orissa.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/dhplheaderimage.jpg" data-src="images/slides/dhplheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Dharmshala Hydro Power Limited (DHPL) - 9.5 MW, Dharmshala, Himachal Pradesh.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/ibemlheaderimage.jpg" data-src="images/slides/ibemlheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Ind-Barath Energies Maharashtra Limited (IBEML) - 20.0 MW, Nanded, Maharashtra.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/rrrelheaderimage.jpg" data-src="images/slides/rrrelheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Raghu Rama Renewable Energy Limited (RRREL) - 18 MW, Ramnad, Tamil Nadu.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/ibel(MLG)headerimage.jpg" data-src="images/slides/ibel(MLG)headerimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Ind-Barath Energies Limited (IBEL) - 6 MW, Nalgonda, Andhra Pradesh.</em>
+
+       </div>
+      </div>
+      <div data-thumb="images/slides/thumbs/windheaderimage.jpg" data-src="images/slides/windheaderimage.jpg">
+       <div class="camera_caption fadeFromBottom"> <em>Ind-Barath Power Infra Limited (IBPIL) - 0.75 MW, Idukki, Kerala.</em>
+
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="comment_with_button clear">
+      <h1 style="font-size: 34px;">FROM DARKNESS TO&nbsp;<span class="span3">LIGHT!</span>&nbsp;</h1>
+
+    </div>
+    <div class="top_articles">
+     <div class="top_article_unit_wrapper">
+      <div class="top_article">
+       	<h2>Thermal</h2>
+
+       <img class="article_two_img" src="images/articles/coal_image.jpg" alt="" />
+       <p>IBPIL is presently operating two coal based power plants with a total capacity of 489 MW and other two plants are in implementation with a total capacity of 1510 MW...</p> <a class="article_two_btn" href="thermalpowerplants.html">Read more</a>
+
+      </div>
+     </div>
+     <div class="top_article_unit_wrapper">
+      <div class="top_article">
+        <h2>Gas</h2>
+
+       <img class="article_two_img" src="images/articles/gas_image.jpg" alt="" />
+       <p>IBPIL is presently operating one gas based power plant with a total capacity of 150 MW and further expansion planned for 35 MW...
+        <br/>
+        <br/>
+       </p> <a class="article_two_btn" href="gaspowerplants.html" target="_self">Read more</a> 
+      </div>
+     </div>
+     <div class="top_article_unit_wrapper">
+      <div class="top_article">
+        <h2>Renewable</h2>
+
+       <img class="article_two_img" src="images/articles/renewable_image.jpg" alt="" />
+       <p>IBPIL is presently operating six renewable based power plant with a combined capacity of 74.25 MW...
+        <br/>
+        <br/>
+       </p> <a class="article_two_btn" href="renewable.html" target="_self">Read more</a> 
+      </div>
+     </div>
+    </div>
+    <div class="about_us_unit_wrapper">
+     <div class="about_us">
+      	<h2>About Us</h2>
+
+      <p>IND-BARATH POWER INFRA LIMITED (IBPIL) is a successful and long standing power infrastructure development company with a clear focus on development of power projects, based on variety of fuels spread across the country. IBPIL is the holding company, providing funds to its SPV subsidiaries for development. The group has successfully passed through various phases of the industry, before and after the Electricity Act 2003. Under the able leadership of Mr. K Raghu, a dynamic industrialist, IBPIL has witnessed phenomenal growth and is set to become a leading player in the Indian power sector.</p>	<a class="read-more-footer" href="aboutus.html">Read more</a>
+
+     </div>
+    </div>
+   </div>
+   <div class="footer">
+    <div class="copyright">
+     <p>Ind-Barath Power Infra Limited (IBPIL), INDIA. All Rights Reserved.</p>
+    </div>
+    <div class="breadcrumbs">
+     <p class="footer_breadcrumb">	<a href="index.html" class="breadcrumb-item">HOME</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="aboutus.html" class="breadcrumb-item">ABOUT US</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="power.html" class="breadcrumb-item">POWER</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="presentations.html" class="breadcrumb-item">PRESENTATIONS</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="media.html" class="breadcrumb-item">MEDIA</a> &nbsp;&nbsp;\&nbsp;&nbsp;<a href="contactus.html" class="breadcrumb-item">CONTACT US</a>
+
+     </p>
+    </div>
+   </div>
+  </div>
+   <script src="scripts/jquery.ui.totop.js" type="text/javascript"></script>
+	<!-- Starting the plugin -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+        
+    
+    
+<a href="#" id="toTop" style="display: none;"><span id="toTopHover"></span>To Top</a>
+ </body>
+
+</html>
