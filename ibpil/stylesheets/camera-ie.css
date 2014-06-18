@@ -1,0 +1,50 @@
+/* lte IE 9 style*/
+.camera_loader {
+	border-radius: 18px;
+	position: relative;
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li {
+	border-radius: 8px;
+	position: relative;
+}
+
+.camera_commands_emboss .camera_pag .camera_pag_ul li {
+	position: relative;
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li > span {
+	border-radius: 5px;
+	position: relative;
+}
+
+.camera_commands_emboss .camera_pag .camera_pag_ul li:hover > span {
+	position: relative;
+}
+
+.camera_commands_emboss .camera_pag .camera_pag_ul li > span {
+	position: relative;
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {
+	position: relative;
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li {
+	border-radius: 8px;
+	position: relative;
+}
+
+.camera_thumbs_cont {
+	border-radius: 0px 0px 4px 4px;
+	position: relative;
+}
+
+.camera_commands_emboss .camera_thumbs_cont {
+	position: relative;
+}
+
+.camera_pag_ul li img {
+	position: relative;
+}
+

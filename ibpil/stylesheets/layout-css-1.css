@@ -53,9 +53,6 @@ body a:hover {
 body h1, h2, h3, h4, p, a, span {
     font-family:"Trebuchet MS", sans-serif;
 }
-.navigation h1 {
-    font-size: 36px;
-}
 .main_wrapper {
     background-color:#FFFFFF;
     margin-top:30px;
@@ -74,8 +71,7 @@ body h1, h2, h3, h4, p, a, span {
 }
 .logo {
     padding-top:10px;
-	padding-bottom:10px;
-	
+    padding-bottom:10px;
 }
 .navigation {
     padding-top:20px;
@@ -128,11 +124,9 @@ body h1, h2, h3, h4, p, a, span {
 .hmenubar li a:active {
     color: #272727;
 }
-
 .comment_with_button a {
     color: #FFFFFF;
 }
-
 .comment_with_button a:hover {
     color: #FFFFFF;
 }
@@ -223,7 +217,6 @@ a.article_two_btn:active {
     text-decoration: none;
     font-weight: bold;
 }
-
 a.read-more-footer {
     padding: 5px;
     text-decoration: none;
@@ -235,8 +228,6 @@ a.read-more-footer {
 a.read-more-footer:hover {
     color: #07617C;
 }
-
-
 .footer {
     background-color:#F5F5F5;
 }
@@ -250,8 +241,8 @@ a.read-more-footer:hover {
     padding-right:10px;
     min-height:10px;
 }
-.copyright p{
-	font-size:12px;
+.copyright p {
+    font-size:12px;
 }
 .breadcrumbs {
     padding-top:10px;
@@ -270,14 +261,12 @@ p.footer_breadcrumb a {
     padding: 5px;
     font-size: 13px;
 }
-
 p.paragraph {
     color:#4a4a4a;
 }
 p.footer_breadcrumb {
     margin-top:10px;
 }
-
 h1.heading1 {
     margin-bottom: 10px;
     margin-top:0em;
@@ -286,15 +275,9 @@ h1.heading1 {
     padding-top:5px;
     font-family:Arial, Helvetica, sans-serif;
 }
-
 span.span3 {
     font:34px Arial, Helvetica, sans-serif;
 }
-.top_header {
-    padding-left: 10px;
-    padding-right:10px;
-}
-
 p.footer_breadcrumb a {
     text-decoration: none;
     min-height: 58px;
@@ -319,8 +302,6 @@ p.footer_breadcrumb a.breadcrumb-item {
 a.privacy_policy:hover {
     text-decoration: underline;
 }
-
-
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
@@ -362,8 +343,8 @@ a.privacy_policy:hover {
     }
     .navigation {
         float: left;
-        width: 499px;
-        min-height: 103px;
+        width: 612px;
+        min-height: 95px;
         padding-left: 120px;
         padding-top:60px;
         padding-bottom:0;
@@ -389,8 +370,7 @@ a.privacy_policy:hover {
         text-align: right;
         background-image:none;
     }
-
-     .comment_with_button {
+    .comment_with_button {
         min-height: 60px;
         width: 930px;
         text-align: center;
@@ -400,7 +380,6 @@ a.privacy_policy:hover {
         clear: both;
         min-height: 1292px;
     }
-    
     .top_article_unit_wrapper {
         width: 33.3%;
         float: left;
@@ -415,15 +394,14 @@ a.privacy_policy:hover {
         width: 970px;
         float: left;
     }
-   .about_us {
+    .about_us {
         min-height: 122px;
     }
-  
-     .footer {
+    .footer {
         clear: both;
         min-height: 124px;
     }
-.copyright {
+    .copyright {
         margin-right:20px;
         padding-left: 20px;
         padding-right: 0px;
@@ -433,7 +411,6 @@ a.privacy_policy:hover {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
     .breadcrumbs {
         min-height: 50px;
         float: left;
@@ -443,7 +420,7 @@ a.privacy_policy:hover {
     .breadcrumbs p {
         text-align: right;
     }
-     p.footer_breadcrumb a {
+    p.footer_breadcrumb a {
         margin-left: 0;
         margin-right: 0;
     }
@@ -451,7 +428,6 @@ a.privacy_policy:hover {
         width: 542px;
         min-height:24px;
     }
- 
     h1.heading1 {
         width: 669px;
         min-height:102px;
