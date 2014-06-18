@@ -1,11 +1,12 @@
 /* lte IE 9 style*/
-.hmenubar {
+.nav > li.nav-search > form {
+	border-radius: 3px 0px 0px 3px;
 	position: relative;
 }
 
-@media only screen and (min-width : 641px) { .hmenubar {
-	border-radius: 25px;
+.nav > li.nav-search input[type="submit"] {
+	border-radius: 0 3px 3px 0;
 	position: relative;
 }
 
-}
+@media only screen and (min-width : 641px) { }

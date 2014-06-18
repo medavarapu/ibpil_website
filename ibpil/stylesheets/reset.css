@@ -23,7 +23,20 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
+/*search*/
+.nav,
+.nav a,
+.nav ul,
+.nav li,
+.nav div,
+.nav form,
+.nav input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+/*end search*/
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;

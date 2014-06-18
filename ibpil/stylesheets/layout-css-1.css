@@ -74,14 +74,94 @@ body h1, h2, h3, h4, p, a, span {
     padding-bottom:10px;
 }
 .navigation {
-    padding-top:20px;
-    padding-bottom:20px;
+    float: none;
+    min-height: 100px;
+    width: auto;
+    margin-left: 0px;
 }
-.navigation select {
-    display:inline-block;
-    width:80%;
-    padding:5px;
-    border:2px solid #D3D3D3;
+.search_nav {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+    text-align: right;
+    padding-right: 35px;
+    padding-top: 27px;
+    height: auto;
+}
+/*search block*/
+ .nav li {
+    list-style: none;
+}
+/* Menu Container */
+ .nav {
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    z-index: 500;
+}
+/* Search Form */
+ .nav > li.nav-search > form {
+    position: relative;
+    width: inherit;
+    height: 40px;
+    z-index: 510;
+    border-left: 1px solid #4b4441;
+    border-radius: 3px 0px 0px 3px;
+}
+.nav > li.nav-search input[type="text"] {
+    display: block;
+    float: left;
+    width: 0px;
+    height: 10px;
+    padding: 15px 0;
+    line-height: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #999999;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .35);
+    background: #372f2b;
+    -webkit-transition: all .3s ease 1s;
+    -moz-transition: all .3s ease 1s;
+    -o-transition: all .3s ease 1s;
+    -ms-transition: all .3s ease 1s;
+    transition: all .3s ease 1s;
+    -moz-text-shadow: 0 0 1px rgba(0, 0, 0, .35);
+    -webkit-text-shadow: 0 0 1px rgba(0, 0, 0, .35);
+}
+.nav > li.nav-search input[type="text"]:focus {
+    color: #fcfcfc;
+}
+.nav > li.nav-search input[type="text"]:focus, .nav > li.nav-search:hover input[type="text"] {
+    width: 60px;
+    padding: 15px 20px;
+    -webkit-transition: all .3s ease .1s;
+    -moz-transition: all .3s ease .1s;
+    -o-transition: all .3s ease .1s;
+    -ms-transition: all .3s ease .1s;
+    transition: all .3s ease .1s;
+}
+.nav > li.nav-search input[type="submit"] {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 40px;
+    padding: 0 25px;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    background-color: #372f2b;
+    background-image: url(../images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.nav > li.nav-search input[type="submit"]:hover {
+    background-color: #4b4441;
+    background-repeat: no-repeat;
 }
 .hmenubar {
     display:none;
@@ -99,30 +179,9 @@ body h1, h2, h3, h4, p, a, span {
     position: relative;
     background: transparent;
 }
-.hmenubar li a {
-    display: block;
-    margin: 0;
-    padding: 12px 5px;
-    line-height: 19px;
-    font-weight: normal;
-    color: #4C4444;
-    text-decoration: none;
-    text-transform: none;
-    text-align: center;
-    width: auto;
-    min-width: 77px;
-    height: auto;
-    font-size: 15px;
-}
-.hmenubar li a:hover {
-    color: #07617C;
-    font-size:15px;
-}
-.hmenubar li a.clicked {
-    color: #272727;
-}
-.hmenubar li a:active {
-    color: #272727;
+.menubar_nav {
+    padding-top: 30px;
+    padding-left:30px;
 }
 .comment_with_button a {
     color: #FFFFFF;
@@ -343,32 +402,15 @@ a.privacy_policy:hover {
     }
     .navigation {
         float: left;
-        width: 612px;
-        min-height: 95px;
-        padding-left: 120px;
-        padding-top:60px;
-        padding-bottom:0;
+        min-height: 155px;
+        width: 732px;
+        height: auto;
     }
-    .navigation select {
-        display:none;
+    .search_nav {
+        min-height: 40px;
     }
-    .hmenubar {
-        display:block;
-        list-style: none;
-        -webkit-border-top-left-radius: 25px;
-        -webkit-border-top-right-radius: 25px;
-        -webkit-border-bottom-right-radius: 25px;
-        -webkit-border-bottom-left-radius: 25px;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        border-bottom-right-radius: 25px;
-        border-bottom-left-radius: 25px;
-        -moz-border-radius-topleft: 25px;
-        -moz-border-radius-topright: 25px;
-        -moz-border-radius-bottomright: 25px;
-        -moz-border-radius-bottomleft: 25px;
-        text-align: right;
-        background-image:none;
+    .menubar_nav {
+        min-height: 55px;
     }
     .comment_with_button {
         min-height: 60px;
