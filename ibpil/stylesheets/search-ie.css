@@ -9,4 +9,13 @@
 	position: relative;
 }
 
-@media only screen and (min-width : 641px) { }
+.ja-actions {
+	border-radius: 4px;
+	position: relative;
+}
+
+.jautocomplete-box {
+	border-radius: 0 0 4px 4px;
+	position: relative;
+}
+

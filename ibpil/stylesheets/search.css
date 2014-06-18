@@ -1,0 +1,204 @@
+.search_nav {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+    text-align: right;
+    padding-right: 35px;
+    padding-top: 27px;
+    height: auto;
+}
+/*search block*/
+ .nav li {
+    list-style: none;
+}
+/* Menu Container */
+ .nav {
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    z-index: 500;
+}
+/* Search Form */
+ .nav > li.nav-search > form {
+    position: relative;
+    width: inherit;
+    height: 40px;
+    z-index: 510;
+    border-left: 1px solid #4b4441;
+    border-radius: 3px 0px 0px 3px;
+}
+.nav > li.nav-search input[type="text"] {
+    display: block;
+    float: left;
+    width: 0px;
+    height: 10px;
+    padding: 15px 0;
+    line-height: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #999999;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .35);
+    background: #372f2b;
+    -webkit-transition: all .3s ease 1s;
+    -moz-transition: all .3s ease 1s;
+    -o-transition: all .3s ease 1s;
+    -ms-transition: all .3s ease 1s;
+    transition: all .3s ease 1s;
+    -moz-text-shadow: 0 0 1px rgba(0, 0, 0, .35);
+    -webkit-text-shadow: 0 0 1px rgba(0, 0, 0, .35);
+}
+.nav > li.nav-search input[type="text"]:focus {
+    color: #fcfcfc;
+}
+.nav > li.nav-search input[type="text"]:focus, .nav > li.nav-search:hover input[type="text"] {
+    width: 160px;
+    padding: 15px 20px;
+    -webkit-transition: all .3s ease .1s;
+    -moz-transition: all .3s ease .1s;
+    -o-transition: all .3s ease .1s;
+    -ms-transition: all .3s ease .1s;
+    transition: all .3s ease .1s;
+}
+.nav > li.nav-search input[type="submit"] {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 40px;
+    padding: 0 25px;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    background-color: #372f2b;
+    background-image: url(../images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.nav > li.nav-search input[type="submit"]:hover {
+    background-color: #4b4441;
+    background-repeat: no-repeat;
+}
+/*search*/
+ .nav, .nav a, .nav ul, .nav li, .nav div, .nav form, .nav input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+/*end search*/
+ .jautocomplete {
+    clear: both;
+    width: auto;
+    text-align: right;
+    padding-right: 35px;
+    padding-top: 27px;
+    height: 67px;
+}
+.ja-actions {
+    width: 310px;
+    background: #fff;
+    padding: 3px 0;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    outline:0;
+    color: #aaa;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    -webkit-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.ja-tb {
+    width: 280px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    line-height: 15px;
+    float: left;
+    text-indent: 10px;
+}
+.ja-btn {
+    display: block;
+    float: right;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+/**
+* Hidden box
+*/
+ .jautocomplete-placeholder {
+    width: 310px;
+    position: absolute;
+    left: 0;
+}
+.jautocomplete-box {
+    float: left;
+    width: 80%;
+    color: #aaa;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    outline:0;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    -webkit-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.jautocomplete-box a {
+    color: #5C5C5C;
+}
+.jautocomplete-box .item {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+.jautocomplete-box .item p {
+    padding: 0;
+    margin: 0;
+}
+.jautocomplete-box .item:hover {
+    background: #efefef;
+}
+.jautocomplete-box .img {
+    float: left;
+    margin-left: 10px;
+}
+.jautocomplete-box .img img {
+    width: 70px;
+}
+.jautocomplete-box .data {
+    float: right;
+    width: 200px;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+    margin-right: 10px;
+}
+.jautocomplete-box .title {
+    color: #2B6789;
+    font-weight: bold;
+    font-size: 13px;
+    min-height:40px;
+}
+.jautocomplete-box .data {
+    float: left;
+    width: 210px;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 10px;
+}

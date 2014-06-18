@@ -35,6 +35,29 @@
    			});
    		});
   </script>
+  <link href="stylesheets/search.css" rel="stylesheet" type="text/css" />
+  <script src="scripts/modernizr.min.js"></script>
+  <!--[if gt IE 8]>-->
+   <script src="scripts/highlight.min.js"></script>
+   <script>
+    hljs.tabReplace = '&nbsp;&nbsp;&nbsp;';
+    			hljs.initHighlightingOnLoad();
+   </script>
+   <!-- <![endif]-->
+   <!-- jautocomplete -->
+   <script src="scripts/jsrender.min.js"></script>
+   <script src="scripts/jautocomplete.min.js"></script>
+   <script>
+    $('document').ready(function(){
+    			
+    				$('#jautocomplete').jautocomplete({
+    					dataSource: 'oneFile'
+    					,oneFile: 'data/json.txt'
+    					,filterBy: ['title']
+    					,templatePath: '#jautocompleteTemplate'
+    				});
+    			});
+   </script>
  </head>
  <body>
   <div class="main_wrapper">
@@ -44,15 +67,33 @@
       <img src="images/IBPIL-LOGO.jpg" width="125" height="135" alt="ibpil logo" />
      </div>
      <div class="navigation">
-      <div class="search_nav">
-       <ul class="nav">
+      <div id="jautocomplete" class="jautocomplete">
+       <ul class="nav" data-type="actions">
         <li class="nav-search">
-         <form action="#">
-          <input type="text" placeholder="Search...">
-          <input type="submit" value="">
-         </form>
+         <input type="text" placeholder="Search..." class="ja-tb" data-type="tb">
+         <input type="submit" value="" class="ja-btn" data-type="btn">
+
         </li>
        </ul>
+       <!-- jAutocomplete jsrender TEMPLATE -->
+       <script id="jautocompleteTemplate" type="text/x-jsrender">
+        <div class="jautocomplete-box">
+        								
+        								{{for data}}
+        									<a href="{{>link}}" title="" data-type="item">
+        										<div class="item">
+        											<div class="img">
+        												<img src="{{>img}}" alt="" title="" />
+        											</div>
+        											<div class="data">
+        												<p class="title">{{>title}}</p>
+        												<p class="desc">{{>desc}}</p>
+        											</div>
+        										</div>
+        									</a>
+        								{{/for}}
+        							</div>
+       </script>
       </div>
       <div class="menubar_nav">
        <div id="CSSMenu1_container" class="FM2_CSSMenu1_container" style="display:block">
