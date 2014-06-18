@@ -194,6 +194,10 @@ a.read-more-footer {
 a.read-more-footer:hover {
     color: #07617C;
 }
+.header_shadow {
+    clear: both;
+    min-height: 757px;
+}
 .footer {
     background-color:#F5F5F5;
 }
@@ -370,6 +374,11 @@ a.privacy_policy:hover {
     }
     .about_us {
         min-height: 122px;
+    }
+	  .header_shadow {
+        clear: both;
+        min-height: 59px;
+        width: auto;
     }
     .footer {
         clear: both;
