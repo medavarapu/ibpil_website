@@ -91,12 +91,12 @@
 }
 /*end search*/
  .jautocomplete {
-    clear: both;
-    width: auto;
-    text-align: right;
-    padding-right: 35px;
-    padding-top: 27px;
-    height: 67px;
+	clear: both;
+	width: auto;
+	text-align: right;
+	padding-right: 35px;
+	padding-top: 27px;
+	height: 40px;
 }
 .ja-actions {
     width: 310px;
