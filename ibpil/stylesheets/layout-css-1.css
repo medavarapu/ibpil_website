@@ -79,7 +79,6 @@ body h1, h2, h3, h4, p, a, span {
     width: auto;
     margin-left: 0px;
 }
-
 .hmenubar li {
     margin:0;
     padding:0;
@@ -203,8 +202,31 @@ a.read-more-footer:hover {
     min-height: 100px;
     width:327px;
 }
+.page_contant {
+    clear: both;
+    min-height: 100px;
+}
+.welcome_text {
+    margin: 0;
+    padding: 25px;
+    border: 0;
+    float: none;
+    width:auto;
+}
+.welcome_text h1 {
+    margin: 0 0 30px;
+    padding: 0;
+}
+.welcome_text p {
+    margin: 0;
+    padding: 0;
+}
+.welcome_text_unit_wrapper {
+    width: auto;
+    float: none;
+}
 .bod_icon_container {
-	clear:both;
+    clear:both;
     float: none;
     width: auto;
     min-height: 100px;
@@ -242,11 +264,10 @@ a.read-more-footer:hover {
     font: italic normal bold 14px/120% Georgia, Times New Roman, Times, serif;
     color: #00bfff;
 }
-
 img.image {
     margin-left: auto;
     margin-right:auto;
-    }
+}
 .km_icon_container {
     float: none;
     width: auto;
@@ -262,6 +283,62 @@ img.image {
     width: auto;
     min-height: 100px;
 }
+.page-title {
+    padding-top:20px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    text-align:left;
+    margin-left:25px;
+    margin-right:25px;
+}
+.page-title span {
+    font-size:20px;
+    color:rgb(153, 153, 153);
+    padding-bottom: 8px;
+    border-bottom: 2px solid #00bfff;
+    text-align:left;
+}
+.chart_container {
+    clear:both;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.chart_container {
+    clear: both;
+    min-height: 100px;
+}
+.chart_total {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.chart_total {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.chart_operation {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.chart_operation {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -411,7 +488,6 @@ a.privacy_policy:hover {
         width: 732px;
         height: auto;
     }
-
     .menubar_nav {
         min-height: 55px;
     }
@@ -442,38 +518,46 @@ a.privacy_policy:hover {
     .about_us {
         min-height: 122px;
     }
-	  .header_shadow {
+    .header_shadow {
         clear: both;
         min-height: 59px;
         width: auto;
     }
-	    .menu_container {
+    .menu_container {
         clear: both;
         min-height: 66px;
         width:970px;
     }
-	.bod_icon_container {
-		clear:both;
+    .page_contant {
+        clear: both;
+        min-height: 100px;
+    }
+    .welcome_text_unit_wrapper {
+        width: 970px;
+        float: left;
+    }
+    .bod_icon_container {
+        clear:both;
         float: left;
         width: 242px;
         min-height: 66px;
     }
-	.icons {
+    .icons {
         clear: both;
         min-height: 50px;
         width: auto;
     }
-	 .name {
+    .name {
         clear: both;
         min-height: 16px;
         width: auto;
     }
-	 .km_icon_container {
+    .km_icon_container {
         float: left;
         width: 237px;
         min-height: 66px;
     }
-	 .kp_icon_container {
+    .kp_icon_container {
         float: left;
         width: 237px;
         min-height: 66px;
@@ -483,6 +567,28 @@ a.privacy_policy:hover {
         width: 238px;
         min-height: 66px;
     }
+	 h4.page-title {
+        min-height: 20px;
+    }
+	.chart_container {
+        clear: both;
+        min-height: 100px;
+    }
+	.chart_total {
+        float: left;
+        width: 460px;
+        min-height: 100px;
+    }
+	.chart_operation {
+        float: left;
+        width: 460px;
+        min-height: 100px;
+    }
+	
+	
+	
+	
+	
 	
 	
     .footer {
@@ -524,5 +630,8 @@ a.privacy_policy:hover {
     }
     .hmenubar li {
         display: inline-block;
+    }
+    img.image {
+        display: block;
     }
 }
