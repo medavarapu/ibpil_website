@@ -503,7 +503,7 @@ img.image {
 }
 .team-container {
     width: 221px;
-    padding-left:10px;
+    padding-left:18px;
 }
 .team-container article {
     width: 219px;
@@ -517,12 +517,6 @@ img.image {
 .media {
     width: 219px;
 }
-
-
-
-
-
-
 .footer {
     background-color:#F5F5F5;
 }
@@ -779,17 +773,11 @@ a.privacy_policy:hover {
         width: 460px;
         min-height: 100px;
     }
-	.bodbox_column {
+    .bodbox_column {
         float: left;
         width: 219px;
         min-height: 100px;
     }
-	
-	
-	
-	
-	
-	
     .footer {
         clear: both;
         min-height: 124px;
