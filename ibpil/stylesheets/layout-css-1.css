@@ -198,6 +198,73 @@ a.read-more-footer:hover {
     clear: both;
     min-height: 757px;
 }
+.menu_container {
+    clear: both;
+    min-height: 100px;
+    width:327px;
+}
+.bod_icon_container {
+	clear:both;
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.icons {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+}
+.name {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+    font: normal bold 14px/120% Georgia, "Times New Roman", Times, serif;
+    color: #7c7c7c;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.name a {
+    font: italic normal bold 14px/120% Georgia, "Times New Roman", Times, serif;
+    color: #7c7c7c;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.name a:hover {
+    font: italic normal bold 14px/120% Georgia, Times New Roman, Times, serif;
+    color: #00bfff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.name_visited a:visited {
+    font: italic normal bold 14px/120% Georgia, Times New Roman, Times, serif;
+    color: #00bfff;
+}
+
+img.image {
+    margin-left: auto;
+    margin-right:auto;
+    }
+.km_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.kp_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.csr_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+
+
+
 .footer {
     background-color:#F5F5F5;
 }
@@ -380,6 +447,44 @@ a.privacy_policy:hover {
         min-height: 59px;
         width: auto;
     }
+	    .menu_container {
+        clear: both;
+        min-height: 66px;
+        width:970px;
+    }
+	.bod_icon_container {
+		clear:both;
+        float: left;
+        width: 242px;
+        min-height: 66px;
+    }
+	.icons {
+        clear: both;
+        min-height: 50px;
+        width: auto;
+    }
+	 .name {
+        clear: both;
+        min-height: 16px;
+        width: auto;
+    }
+	 .km_icon_container {
+        float: left;
+        width: 237px;
+        min-height: 66px;
+    }
+	 .kp_icon_container {
+        float: left;
+        width: 237px;
+        min-height: 66px;
+    }
+    .csr_icon_container {
+        float: left;
+        width: 238px;
+        min-height: 66px;
+    }
+	
+	
     .footer {
         clear: both;
         min-height: 124px;
