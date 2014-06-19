@@ -490,6 +490,39 @@ img.image {
     -moz-text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
     -webkit-text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
 }
+.bodbox_container_body {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+    padding-bottom:15px;
+}
+.bodbox_column {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.team-container {
+    width: 221px;
+    padding-left:10px;
+}
+.team-container article {
+    width: 219px;
+}
+.team-container article .article-body {
+    min-height: 138px;
+}
+.team-container article {
+    width: 219px;
+}
+.media {
+    width: 219px;
+}
+
+
+
+
+
+
 .footer {
     background-color:#F5F5F5;
 }
@@ -746,6 +779,17 @@ a.privacy_policy:hover {
         width: 460px;
         min-height: 100px;
     }
+	.bodbox_column {
+        float: left;
+        width: 219px;
+        min-height: 100px;
+    }
+	
+	
+	
+	
+	
+	
     .footer {
         clear: both;
         min-height: 124px;
