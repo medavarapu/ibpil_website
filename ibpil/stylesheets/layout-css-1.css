@@ -332,16 +332,6 @@ img.image {
     width: auto;
     min-height: 100px;
 }
-
-
-
-
-
-
-
-
-
-
 .footer {
     background-color:#F5F5F5;
 }
@@ -459,14 +449,15 @@ a.privacy_policy:hover {
     }
     .main_wrapper {
         clear: both;
-        min-height: 1585px;
+        min-height: 1088px;
         width: 970px;
         margin-right: auto;
         margin-left: auto;
-        padding-right:0px;
-        padding-left:0px;
-        border-width:10px;
-        padding-bottom:0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        border-width: 10px;
+        padding-bottom: 0px;
+        height: auto;
     }
     .header {
         clear: both;
@@ -499,7 +490,8 @@ a.privacy_policy:hover {
     }
     .content {
         clear: both;
-        min-height: 1292px;
+        min-height: 803px;
+        height: auto;
     }
     .top_article_unit_wrapper {
         width: 33.3%;
@@ -567,30 +559,23 @@ a.privacy_policy:hover {
         width: 238px;
         min-height: 66px;
     }
-	 h4.page-title {
+    h4.page-title {
         min-height: 20px;
     }
-	.chart_container {
+    .chart_container {
         clear: both;
         min-height: 100px;
     }
-	.chart_total {
+    .chart_total {
         float: left;
         width: 460px;
         min-height: 100px;
     }
-	.chart_operation {
+    .chart_operation {
         float: left;
         width: 460px;
         min-height: 100px;
     }
-	
-	
-	
-	
-	
-	
-	
     .footer {
         clear: both;
         min-height: 124px;
