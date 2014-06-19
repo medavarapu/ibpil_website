@@ -517,6 +517,21 @@ img.image {
 .media {
     width: 219px;
 }
+.kpbox_container {
+    clear:both;
+    min-height:230px;
+	padding-left:240px;
+	padding-bottom:25px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+
+
+
+
+
+
+
 .footer {
     background-color:#F5F5F5;
 }
@@ -778,6 +793,17 @@ a.privacy_policy:hover {
         width: 219px;
         min-height: 100px;
     }
+	 .kpbox_container {
+        clear: both;
+        min-height: 230px;
+        padding-left: 240px;
+        height: 230px;
+    }
+	
+	
+	
+	
+	
     .footer {
         clear: both;
         min-height: 124px;
