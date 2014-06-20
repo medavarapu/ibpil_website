@@ -1,0 +1,16 @@
+/* lte IE 9 style*/
+.pinsbox {
+	border-radius: 5px;
+	position: relative;
+}
+
+.uc_header {
+	border-radius: 5px 0px 0px 5px;
+	position: relative;
+}
+
+.ud_header {
+	border-radius: 5px 0px 0px 5px;
+	position: relative;
+}
+

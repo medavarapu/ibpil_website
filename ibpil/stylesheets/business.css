@@ -1,19 +1,4 @@
-.business_container {
-	margin-top:10px;
-    clear: both;
-    min-height: 604px;
-    width: 970px;
-}
-.business_contant_container {
-    clear: both;
-    min-height: 662px;
-}
-.map_container {
-    float: left;
-    width: 434px;
-    min-height: 530px;
-    background:no-repeat center center;
-}
+
 .pinsbox {
 	clear: both;
 	min-height: 95px;
