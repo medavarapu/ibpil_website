@@ -206,6 +206,10 @@ a.read-more-footer:hover {
     clear: both;
     min-height: 100px;
 }
+.csr_container {
+    clear: both;
+    min-height: 100px;
+}
 .bodbox_container {
     clear: both;
     min-height: 100px;
@@ -795,6 +799,10 @@ a.privacy_policy:hover {
         width:970px;
     }
     .page_contant {
+        clear: both;
+        min-height: 100px;
+    }
+    .csr_container {
         clear: both;
         min-height: 100px;
     }
