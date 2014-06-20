@@ -229,6 +229,17 @@ a.read-more-footer:hover {
     clear: both;
     min-height: 100px;
 }
+.map_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+    margin-left:10px;
+}
+.content_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
 .csr_container {
     clear: both;
     min-height: 100px;
@@ -669,6 +680,22 @@ img.image {
     padding: 2em;
     /*height: 220px;*/
 }
+.iconsbox {
+    width: 22px;
+}
+.iconsbox_name {
+    width: 140px;
+}
+.dhpl_box {
+    width: 216px;
+}
+
+
+
+
+
+
+
 .footer {
     background-color:#F5F5F5;
 }
@@ -912,6 +939,17 @@ a.privacy_policy:hover {
         clear: both;
         min-height: 100px;
     }
+    .map_container {
+        float: left;
+        width: 434px;
+        min-height: 584px;
+        margin-left:10px;
+    }
+    .content_container {
+        float: left;
+        width: 485px;
+        min-height: 100px;
+    }
     .csr_container {
         clear: both;
         min-height: 100px;
@@ -995,6 +1033,22 @@ a.privacy_policy:hover {
         padding-left: 240px;
         height: 230px;
     }
+	.iconsbox {
+        min-height: 12px;
+    }
+    .iconsbox_name {
+        width: auto;
+    }
+	 .dhpl_box {
+        width: 43%;
+        height: 20px;
+    }
+	
+	
+	
+	
+	
+	
     .footer {
         clear: both;
         min-height: 124px;
