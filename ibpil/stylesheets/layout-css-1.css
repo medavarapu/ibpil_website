@@ -689,9 +689,42 @@ img.image {
 .dhpl_box {
     width: 216px;
 }
-
-
-
+.ibeul_box {
+    width: 136px;
+}
+.ibel_box {
+    width: 50%;
+    height: 20px;
+}
+.aerl_box {
+    width: 50%;
+    height: 20px;
+}
+.ibpgl_box {
+    width: 50%;
+    height: 20px;
+}
+.ibtpl_box {
+    width: 50%;
+    height: 20px;
+}
+.ibpml_box {
+    width: 48%;
+    height: 20px;
+}
+.ibpil_box {
+    width: 47%;
+    height: 21px;
+    margin-left:0px;
+}
+.ibetl_box {
+    width: 50%;
+    height: 21px;
+}
+.ibeml_box {
+    width: 50%;
+    height: 21px;
+}
 
 
 
@@ -1043,8 +1076,13 @@ a.privacy_policy:hover {
         width: 43%;
         height: 20px;
     }
-	
-	
+	    .ibeul_box {
+        width: 43%;
+        min-height: 20px;
+    }
+	  .ibpil_box {
+        margin-left: 0px;
+    }
 	
 	
 	
