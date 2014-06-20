@@ -221,10 +221,6 @@ a.read-more-footer:hover {
     clear: both;
     min-height: 100px;
 }
-.business_container {
-    clear: both;
-    min-height: 100px;
-}
 .csr_container {
     clear: both;
     min-height: 100px;
@@ -665,6 +661,11 @@ img.image {
     padding: 2em;
     /*height: 220px;*/
 }
+
+
+
+
+
 .footer {
     background-color:#F5F5F5;
 }
@@ -900,10 +901,6 @@ a.privacy_policy:hover {
         clear: both;
         min-height: 100px;
     }
-    .business_container {
-        clear: both;
-        min-height: 100px;
-    }
     .csr_container {
         clear: both;
         min-height: 100px;
@@ -987,6 +984,12 @@ a.privacy_policy:hover {
         padding-left: 240px;
         height: 230px;
     }
+
+	
+	
+	
+	
+	
     .footer {
         clear: both;
         min-height: 124px;
@@ -1036,9 +1039,5 @@ a.privacy_policy:hover {
     .article_nineteen {
         width: 177.5px;
         float: left;
-    }
-    .row_2 {
-        clear: both;
-        min-height: 604px;
     }
 }
