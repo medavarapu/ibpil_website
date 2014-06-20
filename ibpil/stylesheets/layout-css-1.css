@@ -202,6 +202,21 @@ a.read-more-footer:hover {
     min-height: 100px;
     width:327px;
 }
+.thermal_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.gas_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.renewable_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
 .page_contant {
     clear: both;
     min-height: 100px;
@@ -861,6 +876,21 @@ a.privacy_policy:hover {
         clear: both;
         min-height: 66px;
         width:970px;
+    }
+    .thermal_icon_container {
+        float: left;
+        width: 323px;
+        min-height: 66px;
+    }
+    .gas_icon_container {
+        float: left;
+        width: 323px;
+        min-height: 66px;
+    }
+    .renewable_icon_container {
+        float: left;
+        width: 324px;
+        min-height: 66px;
     }
     .page_contant {
         clear: both;
