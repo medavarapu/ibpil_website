@@ -820,11 +820,11 @@ img.image {
     top:270px;
 }
 .uc_header {
-    min-height: 124px;
+    min-height: 123px;
 }
 .ud_container {
     position:relative;
-    top:260px;
+    top:250px;
     clear:both;
     -webkit-transform:none;
     -webkit-box-shadow:none;
@@ -1505,12 +1505,13 @@ a.privacy_policy:hover {
         padding: 10px;
     }
     .uc_header {
-        min-height: 124px;
+        min-height: 123px;
     }
     .ud_container {
-        clear: both;
-        min-height: 127px;
-        padding:10px;
+	clear: both;
+	min-height: 127px;
+	padding: 10px;
+	height: 168px;
     }
     .ud_header {
         min-height: 146.5px;
