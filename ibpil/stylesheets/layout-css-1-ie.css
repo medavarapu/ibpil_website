@@ -44,4 +44,19 @@ a.article_five_btn {
 	position: relative;
 }
 
-@media only screen and (min-width : 641px) { }
+.operational_header {
+	border-radius: 5px 5px 0px 0px 5px 5px;
+	position: relative;
+}
+
+.contactmap_container {
+	border-radius: 0px;
+	position: relative;
+}
+
+@media only screen and (min-width : 641px) { .operational_header {
+	border-radius: 5px 0px 0px 5px;
+	position: relative;
+}
+
+}

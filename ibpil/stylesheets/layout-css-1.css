@@ -220,6 +220,8 @@ a.read-more-footer:hover {
 .page_contant {
     clear: both;
     min-height: 100px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .business_container {
     clear: both;
@@ -730,7 +732,7 @@ img.image {
     clear: both;
     min-height: 531px;
     width: 505px;
-	padding:10px;
+    padding:10px;
 }
 .operational_header {
     float:none;
@@ -754,7 +756,7 @@ img.image {
     -moz-transform:rotate(-90deg);
     -o-transform:rotate(-90deg);
     -ms-transform:rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     transform:rotate(-90deg);
     vertical-align:middle;
     position:relative;
@@ -805,10 +807,10 @@ img.image {
     -webkit-box-shadow:none;
 }
 .operations_body {
-        clear: both;
-        min-height: 62px;
-        width:429px;
-    }
+    clear: both;
+    min-height: 62px;
+    width:429px;
+}
 .uc_container {
     position:relative;
     clear:both;
@@ -839,14 +841,257 @@ img.image {
 .ud_header {
     min-height:146.5px;
 }
-
-
-
-
-
-
-
-
+.media_col1 {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.media_col1 {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.media_col2 {
+    float: left;
+    width: 485px;
+    min-height: 66px;
+}
+.media_container {
+    clear:both;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+    min-height:70px;
+}
+.media_container {
+    clear: both;
+    min-height: 100px;
+}
+.news_header {
+    clear: both;
+    min-height: 62px;
+    padding-left:250px;
+    padding-right:250px;
+}
+.news_row1 {
+    clear: both;
+    min-height: 100px;
+    padding-right: 122px;
+    padding-left: 122px;
+}
+.news_row2 {
+    clear: both;
+    min-height: 100px;
+    padding-right: 122px;
+    padding-left: 122px;
+}
+.news_row3 {
+    clear: both;
+    min-height: 100px;
+    padding-right: 122px;
+    padding-left: 122px;
+}
+/* Images & Galleria
+-------------------------------------------------------------- */
+ .post_grid_image img {
+    background:#f5f5f5;
+    border:1px solid #fff;
+    padding:4px;
+    outline:1px solid #eaeaea;
+}
+.one_third {
+    width:30%;
+}
+.one_third_unit_wrapper {
+    width: 42%;
+    min-height: 279px;
+    float: left;
+}
+.one_third {
+    position: relative;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    float: none;
+    margin-left: 2%;
+    width:auto;
+}
+/*
+===============================================================================================================
+02. STRUCTURE
+=============================================================================================================== */
+ #content_inner {
+    position: relative;
+    width: 960px;
+}
+/* Specific Layouts
+-------------------------------------------------------------- */
+ .portfolio .date {
+    color:#aaa;
+    font-size:10px;
+    line-height:15px;
+    text-transform:uppercase;
+}
+/* Post Images 
+-------------------------------------------------------------- */
+.infocus_shadow_bottom,.infocus_shadow_top{border:none!important;outline:none!important;background-color:transparent!important;padding:0!important;width:100% !important;display:block;margin:0;opacity:.9;}
+.single_post_image{margin-bottom:10px!important;margin-top:-10px;}
+.post_grid_image img, .post_list_image img, .single_post_image img {
+    vertical-align:bottom;
+}
+.single_post_image {
+    margin-bottom:10px;
+    margin-top:-10px;
+}
+.post_grid_image img, .post_list_image img, .single_post_image img {
+    vertical-align:bottom;
+}
+.post_grid_module, .post_list_module {
+    margin-bottom: 5px;
+}
+.single_post_image {
+    margin-bottom:10px;
+    margin-top:-10px;
+}
+.post_grid_image img, .post_list_image img, .single_post_image img {
+    vertical-align:bottom;
+}
+.post_grid_module, .post_list_module {
+    margin-bottom: 5px;
+}
+.address_container {
+    clear:both;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.header_container {
+    clear:both;
+    min-height:100px;
+    width:auto;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.header_container {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+}
+.header_corporate {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.header_corporate {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.header_others {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.header_others {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.body_container {
+    clear: both;
+    min-height: 50px;
+    width: auto;
+}
+.body_corporate {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.body_corporate {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.body_corporate_align {
+    margin-right: auto;
+}
+.registered_office {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.registered_office {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.body_others {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.body_others {
+    float: none;
+    width: auto;
+    min-height: 100px;
+    padding-left:30px;
+}
+.corporate_office1 {
+    padding-left: 0px;
+}
+.corporate_office2 {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.corporate_office2 {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+h3.heading9 {
+    padding-left: 30px;
+}
+h3.heading8 {
+    text-align: center;
+}
+h5.heading11 {
+    padding-left: 30px;
+}
+p.paragraph4 {
+    padding-left: 30px;
+}
+.contactmap_container {
+    clear: both;
+    min-height: 510px;
+    width: auto;
+    margin:0px;
+    padding:15px;
+    border-color:#F2F2F2;
+    border-style:solid;
+    border-width:5px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+.contactmap_container {
+    clear: both;
+    min-height: 400px;
+    padding:0px;
+    border-width:0px;
+}
 .footer {
     background-color:#F5F5F5;
 }
@@ -1081,6 +1326,13 @@ a.privacy_policy:hover {
     .page_contant {
         clear: both;
         min-height: 100px;
+        width:970px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #content_inner {
+        margin-left: auto;
+        margin-right:0px;
     }
     .business_container {
         clear: both;
@@ -1184,29 +1436,29 @@ a.privacy_policy:hover {
         padding-left: 240px;
         height: 230px;
     }
-	.iconsbox {
+    .iconsbox {
         min-height: 12px;
     }
     .iconsbox_name {
         width: auto;
     }
-	 .dhpl_box {
+    .dhpl_box {
         width: 43%;
         height: 20px;
     }
-	    .ibeul_box {
+    .ibeul_box {
         width: 43%;
         min-height: 20px;
     }
-	  .ibpil_box {
+    .ibpil_box {
         margin-left: 0px;
     }
-	.operational_container {
+    .operational_container {
         clear: both;
         width:475px;
         min-height:251px;
     }
-	   .operational_header {
+    .operational_header {
         position:relative;
         float: left;
         width: 40px;
@@ -1218,13 +1470,12 @@ a.privacy_policy:hover {
         border-bottom-left-radius:5px;
         -webkit-border-top-left-radius:5px;
     }
-	 .operational_body {
+    .operational_body {
         float: left;
         width: 429px;
         height: 37px;
     }
-	
-	 .project_box {
+    .project_box {
         float: left;
         width: 243px;
         min-height: 35px;
@@ -1232,7 +1483,7 @@ a.privacy_policy:hover {
         border-bottom-style: solid;
         border-bottom-color: rgb(204, 204, 204);
     }
-	.fuel_box {
+    .fuel_box {
         float: left;
         width: 80px;
         min-height: 35px;
@@ -1240,7 +1491,7 @@ a.privacy_policy:hover {
         border-bottom-style: solid;
         border-bottom-color: rgb(204, 204, 204);
     }
-	 .capacity_box {
+    .capacity_box {
         float: left;
         width: 104px;
         min-height: 35px;
@@ -1248,27 +1499,110 @@ a.privacy_policy:hover {
         border-bottom-style: solid;
         border-bottom-color: rgb(204, 204, 204);
     }
-	.uc_container {
+    .uc_container {
         clear: both;
         min-height: 146px;
         padding: 10px;
     }
-	.uc_header {
+    .uc_header {
         min-height: 124px;
     }
-	  .ud_container {
+    .ud_container {
         clear: both;
         min-height: 127px;
         padding:10px;
     }
-	.ud_header {
+    .ud_header {
         min-height: 146.5px;
     }
-	
-	
-	
-	
-	
+    .media_col1 {
+        float: left;
+        width: 485px;
+        min-height: 66px;
+    }
+    .media_container {
+        clear: both;
+        min-height: 92px;
+    }
+    .news_header {
+        clear: both;
+        min-height: 62px;
+        padding-left:351px;
+        padding-right:351px;
+    }
+    .news_row1 {
+        clear: both;
+        min-height: 100px;
+    }
+    .news_row2 {
+        clear: both;
+        min-height: 100px;
+    }
+    .news_row3 {
+        clear: both;
+        min-height: 100px;
+    }
+    .address_container {
+        clear: both;
+        min-height: 100px;
+    }
+    .header_container {
+        clear: both;
+        min-height: 50px;
+        width: auto;
+    }
+    .header_corporate {
+        float: left;
+        width: 212px;
+        min-height: 50px;
+    }
+    .header_others {
+        float: left;
+        width: 758px;
+        min-height: 50px;
+    }
+    .body_corporate {
+        float: left;
+        width: 212px;
+        min-height: 50px;
+    }
+    .body_corporate_align {
+        margin-left: 0px;
+    }
+    .registered_office {
+        float: left;
+        width: 270px;
+        height: auto;
+    }
+    .body_others {
+        width: 653px;
+        min-height: 50px;
+        float:left;
+        padding-left:95px;
+    }
+    .corporate_office1 {
+        float: left;
+        width: 220px;
+        height: auto;
+    }
+    .corporate_office2 {
+        float: left;
+        width: 216.5px;
+        height:auto;
+    }
+    h3.heading9 {
+        padding-left: 30px;
+    }
+    h5.heading11 {
+        padding-left: 30px;
+    }
+    p.paragraph4 {
+        padding-left: 30px;
+    }
+    .contactmap_container {
+        clear: both;
+        min-height: 400px;
+    }
     .footer {
         clear: both;
         min-height: 124px;
@@ -1318,5 +1652,15 @@ a.privacy_policy:hover {
     .article_nineteen {
         width: 177.5px;
         float: left;
+    }
+    .one_third_unit_wrapper {
+        width: 33%;
+        min-height: 279px;
+        float: left;
+    }
+    .one_third {
+        width: auto;
+        margin-right:2%;
+        float:none;
     }
 }

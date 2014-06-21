@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>IBPIL - Power</title>
+  <meta content="" name="description" />
+  <meta content="" name="author" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+  <link href="animated_favicon1.gif" rel="shortcut icon" />
+  <script type="text/javascript" src="scripts/browser-compatibility.js"></script>
+  <link href="stylesheets/layout-css-1.css" rel="stylesheet" type="text/css" media="all" />
+  <script type="text/javascript" src="includes/extendjQuery.js"></script>
+  <script type="text/javascript" src="includes/FlexiMenus2/fleximenus2.js"></script>
+  <link href="includes/FlexiMenus2/CSSMenu_CSSMenu1.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" media="all" href="stylesheets/default.css">
+  <link rel="stylesheet" href="stylesheets/phone.css">
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+  <link href="stylesheets/search.css" rel="stylesheet" type="text/css" />
+  <script src="scripts/modernizr.min.js"></script>
+  <!--[if gt IE 8]>-->
+   <script src="scripts/highlight.min.js"></script>
+   <script>
+    hljs.tabReplace = '&nbsp;&nbsp;&nbsp;';
+    			hljs.initHighlightingOnLoad();
+   </script>
+   <!-- <![endif]-->
+   <!-- jautocomplete -->
+   <script src="scripts/jsrender.min.js"></script>
+   <script src="scripts/jautocomplete.min.js"></script>
+   <script>
+    $('document').ready(function(){
+    			
+    				$('#jautocomplete').jautocomplete({
+    					dataSource: 'oneFile'
+    					,oneFile: 'data/json.txt'
+    					,filterBy: ['title']
+    					,templatePath: '#jautocompleteTemplate'
+    				});
+    			});
+   </script>
+   <style>
+    table {
+     width:500px;
+     cellspacing:5px;
+    }
+    th {
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-left:10px;
+     border:1px solid black;
+     vertical-align:center;
+     background-color:rgb(204, 204, 204);
+    }
+    td {
+     padding-left:10px;
+     border:1px solid black;
+     vertical-align:center;
+    }
+   </style>
+ </head>
+ <body>
+  <div class="main_wrapper">
+   <div class="header">
+    <div class="top_header">
+     <div class="logo">
+      <img src="images/IBPIL-LOGO.jpg" width="125" height="135" alt="ibpil logo" />
+     </div>
+     <div class="navigation">
+      <div id="jautocomplete" class="jautocomplete">
+       <ul class="nav" data-type="actions">
+        <li class="nav-search">
+         <form action="#">
+          <input type="text" placeholder="Search..." class="ja-tb" data-type="tb">
+          <input type="submit" value="" class="ja-btn" data-type="btn">
+         </form>
+        </li>
+       </ul>
+       <!-- jAutocomplete jsrender TEMPLATE -->
+       <script id="jautocompleteTemplate" type="text/x-jsrender">
+        <div class="jautocomplete-box">
+        								
+        								{{for data}}
+        									<a href="{{>link}}" title="" data-type="item">
+        										<div class="item">
+        											<div class="img">
+        												<img src="{{>img}}" alt="" title="" />
+        											</div>
+        											<div class="data">
+        												<p class="title">{{>title}}</p>
+        												<p class="desc">{{>desc}}</p>
+        											</div>
+        										</div>
+        									</a>
+        								{{/for}}
+        							</div>
+       </script>
+      </div>
+      <div class="menubar_nav">
+       <div id="CSSMenu1_container" class="FM2_CSSMenu1_container" style="display:block">
+        <ul id="CSSMenu1" class="FM2_CSSMenu1">
+         <!-- version=2.0.217;name=CSSMenu1;baseskin=skin19;colorscheme=light_blue;type=horizontal; -->
+         <li> <a href="index.html" target="_self"><font class="leaf">Home</font></a> 
+         </li>
+         <li> <a href="aboutus.html" target="_self"><span class="branch">About Us</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="aboutus.html" target="_self"><font class="leaf">Overview</font></a> 
+           </li>
+           <li> <a href="boardofdirectors.html" target="_self"><font class="leaf">Board of Directors</font></a> 
+           </li>
+           <li> <a href="keymilestones.html" target="_self"><font class="leaf">Key Milestones</font></a> 
+           </li>
+           <li> <a href="keypersonnel.html" target="_self"><font class="leaf">Key Personnel</font></a> 
+           </li>
+           <li> <a href="csr.html" target="_self"><font class="leaf">CSR</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="power.html" target="_self"><span class="branch">Power</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="thermalpowerplants.html" target="_self"><font class="leaf">Thermal Power Plants</font></a> 
+           </li>
+           <li> <a href="gaspowerplants.html" target="_self"><font class="leaf">Gas Power Plants</font></a> 
+           </li>
+           <li> <a href="renewable.html" target="_self"><font class="leaf">Renewable Power Plants</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="presentations.html" target="_self"><span class="branch">Presentations</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="presentations.html" target="_self"><font class="leaf">Corporate Video</font></a> 
+           </li>
+           <li> <a href="corporatepresentation.html" target="_self"><font class="leaf">Presentation</font></a> 
+           </li>
+           <li> <a href="companystructure.html" target="_self"><font class="leaf">Company Structure</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="media.html" target="_self"><span class="branch">Media</span></a>
+
+          <ul>
+           <li class="firstsm"> <a class="firstsm" href="media.html" target="_self"><font class="leaf">News</font></a> 
+           </li>
+           <li> <a href="photogallery.html" target="_self"><font class="leaf">Photo Gallery</font></a> 
+           </li>
+          </ul>
+         </li>
+         <li> <a href="contactus.html" target="_self"><font class="leaf">Contact Us</font></a> 
+         </li>
+        </ul>
+        <script type="text/javascript">
+         registerFlexiCSSMenu("CSSMenu1", {"menuType":"horizontal","effectSub":{"name":"slide","direction":"up","duration":250,"easing":"swing","useFade":true},"effectRest":{"name":"slide","direction":"left","duration":250,"easing":"swing","useFade":true},"effectSubTwo":null,"options":{"preset":"fixed","enableTablet":true,"enableMobile":true,"mobileMaxWidth":640,"tabletMaxWidth":1023,"tabletCloseBtnLabel":"Close","tabletCloseBtnEnable":true,"align":"left"}});
+        </script>
+       </div>
+<a class="FM2_mobile_button" id="FM2_CSSMenu1_mobile_button"><span class="caption">Menu</span></a>
+
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="content">
+    <div class="header_shadow">
+     <img src="images/shadow.png" height="59" width="970" />
+    </div>
+    <div class="menu_container">
+     <div class="thermal_icon_container">
+      <div class="icons">
+       <img src="images/icons/video_icon.png" class="image" />
+      </div>
+      <div class="name"> <a href="presentations.html">Corporate Video</a>
+
+      </div>
+     </div>
+     <div class="gas_icon_container">
+      <div class="icons">
+       <img src="images/icons/presentation_icon.png" class="image" />
+      </div>
+      <div class="name name_visited"> <a href="corporatepresentation.html">Corporate Presentation</a>
+
+      </div>
+     </div>
+     <div class="renewable_icon_container">
+      <div class="icons">
+       <img src="images/icons/flowchart_icon.png" class="image" />
+      </div>
+      <div class="name"> <a href="companystructure.html">Corporate Structure</a>
+
+      </div>
+     </div> 
+    </div>
+    <div class="page_contant">
+      <slides class="layout-widescreen">
+		<slide class="logoslide nobackground">
+    		<article class="flexbox vcenter">
+      			<span><h1>IND-BARATH POWER INFRA LIMITED</h1></span>
+      			<span><h2>Use a spacebar or arrow keys to navigate</h2></span>
+    		</article>
+  		</slide>
+	  </slides>
+
+    </div>
+   </div>
+   <div class="footer">
+    <div class="copyright">
+     <p>Ind-Barath Power Infra Limited (IBPIL), INDIA. All Rights Reserved.</p>
+    </div>
+    <div class="breadcrumbs">
+     <p class="footer_breadcrumb">	<a href="index.html" class="breadcrumb-item">HOME</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="aboutus.html" class="breadcrumb-item">ABOUT US</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="power.html" class="breadcrumb-item">POWER</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="presentations.html" class="breadcrumb-item">PRESENTATIONS</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="media.html" class="breadcrumb-item">MEDIA</a> &nbsp;&nbsp;\&nbsp;&nbsp;<a href="contactus.html" class="breadcrumb-item">CONTACT US</a>
+
+     </p>
+    </div>
+   </div>
+  </div>
+  <script src="scripts/jquery.ui.totop.js" type="text/javascript"></script>
+  <!-- Starting the plugin -->
+  <script type="text/javascript">
+   $(document).ready(function() {
+   			/*
+   			var defaults = {
+   	  			containerID: 'toTop', // fading element id
+   				containerHoverID: 'toTopHover', // fading element hover id
+   				scrollSpeed: 1200,
+   				easingType: 'linear' 
+   	 		};
+   			*/
+   			
+   			$().UItoTop({ easingType: 'easeOutQuart' });
+   			
+   		});
+  </script>
+<a href="#" id="toTop" style="display: none;"><span id="toTopHover"></span>To Top</a>
+
+ </body>
+
+</html>
