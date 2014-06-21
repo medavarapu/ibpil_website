@@ -818,11 +818,11 @@ img.image {
     top:270px;
 }
 .uc_header {
-    min-height: 123.5px;
+    min-height: 124px;
 }
 .ud_container {
     position:relative;
-    top:245px;
+    top:260px;
     clear:both;
     -webkit-transform:none;
     -webkit-box-shadow:none;
@@ -1254,7 +1254,7 @@ a.privacy_policy:hover {
         padding: 10px;
     }
 	.uc_header {
-        min-height: 123.5px;
+        min-height: 124px;
     }
 	  .ud_container {
         clear: both;
