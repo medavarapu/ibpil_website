@@ -72,7 +72,7 @@
 					
 				
 					if(options.animation == "none") {
-						modal.css({'visibility' : 'visible', 'top':$(document).scrollTop()+topMeasure});
+						modal.css({'display': 'block', 'top':$(document).scrollTop()+topMeasure});
 						modalBG.css({"display":"block"});	
 						unlockModal()				
 					}

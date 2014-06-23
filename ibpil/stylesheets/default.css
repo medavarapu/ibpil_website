@@ -409,14 +409,7 @@ article.smaller q:before, article.smaller q:after {
   box-reflect: below 3px linear-gradient(rgba(255, 255, 255, 0) 85%, #ffffff 150%);
 }
 
-/* line 745, ../scss/default.scss */
-.flexbox {
-  display: -webkit-box !important;
-  display: -moz-box !important;
-  display: -ms-box !important;
-  display: -o-box !important;
-  display: box !important;
-}
+
 
 /* line 749, ../scss/default.scss */
 .flexbox.vcenter {
