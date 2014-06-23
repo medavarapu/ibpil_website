@@ -1,0 +1,72 @@
+/* lte IE 9 style*/
+.vjs-default-skin .vjs-slider {
+	-pie-background: rgba(51, 51, 51, 0.9);
+	position: relative;
+}
+
+.vjs-default-skin .vjs-slider:focus {
+	position: relative;
+}
+
+.vjs-default-skin .vjs-control-bar {
+	-pie-background: rgba(7, 20, 30, 0.7);
+	position: relative;
+}
+
+/* IE8 is flakey with fonts, and you have to change the actual content to force
+fonts to show/hide properly.
+  - "\9" IE8 hack didn't work for this
+  - Found in XP IE8 from http://modern.ie. Does not show up in "IE8 mode" in IE9
+*/
+@media \0screen  { }.vjs-default-skin .vjs-big-play-button {
+	-pie-background: rgba(7, 20, 30, 0.7);
+	border-radius: 0.8em;
+	position: relative;
+}
+
+.vjs-default-skin:hover .vjs-big-play-button,
+.vjs-default-skin .vjs-big-play-button:focus {
+	-pie-background: rgba(50, 50, 50, 0.75);
+	position: relative;
+}
+
+.vjs-default-skin .vjs-big-play-button,
+.vjs-default-skin .vjs-big-play-button:focus {
+	position: relative;
+}
+
+.vjs-default-skin .vjs-menu-button .vjs-menu .vjs-menu-content {
+	-pie-background: rgba(7, 20, 30, 0.7);
+	position: relative;
+}
+
+.vjs-default-skin .vjs-menu-button ul li:focus,
+.vjs-default-skin .vjs-menu-button ul li:hover,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:hover {
+	-pie-background: rgba(255, 255, 255, 0.75);
+	position: relative;
+}
+
+.vjs-default-skin .vjs-menu-button ul li:focus,
+.vjs-default-skin .vjs-menu-button ul li,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected {
+	position: relative;
+}
+
+.vjs-default-skin .vjs-captions-button:focus .vjs-control-content:before,
+.vjs-default-skin .vjs-captions-button:hover .vjs-control-content:before {
+	position: relative;
+}
+
+.vjs-default-skin .vjs-captions-button:focus .vjs-control-content:before,
+.vjs-default-skin .vjs-captions-button .vjs-control-content:before {
+	position: relative;
+}
+
+.video-js .vjs-text-track {
+	-pie-background: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+

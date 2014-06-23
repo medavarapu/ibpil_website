@@ -1,0 +1,38 @@
+/* lte IE 9 style*/
+.tline-box {
+	position: relative;
+}
+
+.tline-box {
+	border-radius: 3px;
+	position: relative;
+}
+
+.tline-box:hover {
+	position: relative;
+}
+
+.tline-box {
+	position: relative;
+}
+
+.tline-topdate {
+	border-radius: 2px;
+	position: relative;
+}
+
+.blog-date-sp, .blog-com-sp {
+	border-radius: 6px 0px 0px 0px;
+	position: relative;
+}
+
+.blog-com-sp {
+	border-radius: 0px;
+	position: relative;
+}
+
+.tline-box .blog-date-sp, .tline-box .blog-com-sp {
+	border-radius: 0;
+	position: relative;
+}
+

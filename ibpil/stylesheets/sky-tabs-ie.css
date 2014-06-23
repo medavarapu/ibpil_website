@@ -1,0 +1,28 @@
+/* lte IE 9 style*/
+.sky-tabs > label span {
+	-pie-background: rgba(255, 255, 255, 0.9);
+	position: relative;
+}
+
+.sky-tabs > ul > li {
+	-pie-background: rgba(255, 255, 255, 0.9);
+	position: relative;
+}
+
+.sky-tabs .grid-col .inner {
+	-pie-background: rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	position: relative;
+}
+
+/**/
+
+/* pad */
+
+/**/
+ @media screen and (max-width: 1000px)  { }/**/
+
+/* phone */
+
+/**/
+ @media screen and (max-width: 767px)  { }

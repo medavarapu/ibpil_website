@@ -519,11 +519,17 @@ article.smaller q:before, article.smaller q:after {
 	color:rgb(255,255,255);
 	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight:700;
+	position:absolute;
+	top: 250px;
+	left: 140px;
 }
 .logoslide h2 {
 	color:rgb(51,51,51);
 	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight:700;
+	position:absolute;
+	top: 310px;
+	left: 140px;
 }
 
 
