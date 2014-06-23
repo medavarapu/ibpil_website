@@ -90,6 +90,7 @@ article {
 .teambox-content h6, .teambox-content h5, .teambox-content h4, .teambox-content h3, .teambox-content h2, .teambox-content h1 {
     margin-bottom: 0;
 	text-align:left;
+	color: #484747;
 }
 .teambox-content h6 a, .teambox-content h5 a, .teambox-content h4 a, .teambox-content h3 a, .teambox-content h2 a, .teambox-content h1 a {
     color: #484747;

@@ -325,12 +325,10 @@ a.article_five1_btn:active {
     float: none;
     width:auto;
 }
-.article_five h5 a{
+.article_five h3 {
 	color: #484747;
 }
-.article_five h5 a:hover{
-	color: #7dbd22;
-}
+
 
 img.article_five_img {
     max-width: 100%;
